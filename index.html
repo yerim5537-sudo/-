@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>당당한 당케어</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#1E1E1E; --muted:#5E5E5E; --bg:#FFFFFF; --panel:#FFFFFF;
+  --yellow:#FFC400; --yellow-soft:#FFF8DB; --line:#E8E8E8;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{font-family:"Noto Sans KR",system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.7}
+.wrap{max-width:720px;margin:0 auto;padding:0 20px}
+header{padding:56px 0 28px}
+h1{font-size:clamp(2.4rem,8vw,3.6rem);font-weight:900;letter-spacing:-.04em;line-height:1.1;margin:0 0 12px}
+footer{margin-top:56px;background:#FFFFFF;color:var(--ink);border-top:6px solid var(--yellow);padding:40px 0 48px;font-size:.92rem}
+footer h3{color:var(--ink);font-size:1rem;margin:28px 0 8px}
+footer h3:first-child{margin-top:0}
+footer a{color:var(--ink);text-decoration-color:var(--yellow);text-decoration-thickness:3px;text-underline-offset:3px;word-break:break-all}
+footer ol{padding-left:1.3em;margin:0}
+footer li{margin-bottom:8px}
+.disclaimer{background:var(--yellow-soft);border-left:6px solid var(--yellow);border-radius:10px;padding:14px 16px}
+.copy{margin-top:32px;color:var(--muted)}
+</style>
+</head>
+<body>
+
+<header class="wrap">
+  <h1>당당한 당케어</h1>
+</header>
+
+
+<footer>
+  <div class="wrap">
+    <h3>참고 문헌</h3>
+    <ol>
+      <li>서울대학교 의과대학 내과학교실. <em>입원환자의 인슐린 치료</em> (혈당 수치에 따른 인슐린 투여량 기준).<br>
+        <a href="https://synapse.koreamed.org/pdf/10.4093/jkd.2018.19.4.214" target="_blank" rel="noopener">https://synapse.koreamed.org/pdf/10.4093/jkd.2018.19.4.214</a></li>
+      <li>분당서울대학교병원. <em>건강상식</em> (공복 혈당 수치 범위).<br>
+        <a href="https://www.snubh.org/service/info/com/view.do?Board_ID=B004&amp;BNO=366" target="_blank" rel="noopener">https://www.snubh.org/service/info/com/view.do?Board_ID=B004&amp;BNO=366</a></li>
+    </ol>
+
+    <h3>유의사항</h3>
+    <div class="disclaimer">
+      본 서비스는 참고용 정보이며 의사의 진단·처방을 대체할 수 없습니다. 참고 논문은 입원환자 대상 지침으로, 인슐린 투여량은 체중, 인슐린 민감도, 복용 약물, 식사량에 따라 달라집니다. 실제 투여 전 반드시 담당 의료진과 상의하세요. 저혈당 증상(떨림, 식은땀, 의식 저하 등)이 있거나 고혈당이 지속되면 즉시 의료기관을 방문하거나 119에 연락하세요.
+    </div>
+
+    <h3>연락처</h3>
+    <div>이메일: <a href="mailto:blueforest27@gmial.com">blueforest27@gmial.com</a></div>
+    <div>전화: <a href="tel:0233335454">02-3333-5454</a></div>
+
+    <div class="copy">© 2026 당당한 당케어</div>
+  </div>
+</footer>
+
+</body>
+</html>
